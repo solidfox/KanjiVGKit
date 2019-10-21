@@ -7,12 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963B012219614C6200DC1C2E /* DanielsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE99FA19614C1200D53DDA /* DanielsKit.framework */; };
+		963B013419614CD200DC1C2E /* BezierKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963B012D19614CC200DC1C2E /* BezierKit.framework */; };
+		963B0145196163EB00DC1C2E /* KVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B0144196163EB00DC1C2E /* KVGParser.swift */; };
+		963B0146196163EB00DC1C2E /* KVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B0144196163EB00DC1C2E /* KVGParser.swift */; };
+		963B01481961686000DC1C2E /* 09078.svg in Resources */ = {isa = PBXBuildFile; fileRef = 963B01471961686000DC1C2E /* 09078.svg */; };
 		964CB75E1960B2FB00E0C075 /* KanjiVGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 964CB75D1960B2FB00E0C075 /* KanjiVGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		964CB7641960B2FB00E0C075 /* KanjiVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964CB7581960B2FB00E0C075 /* KanjiVGKit.framework */; };
 		964CB76B1960B2FB00E0C075 /* KanjiVGKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB76A1960B2FB00E0C075 /* KanjiVGKitTests.swift */; };
+		964CB7B01960B4D800E0C075 /* KVGElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AD1960B4D800E0C075 /* KVGElement.swift */; };
+		964CB7B11960B4D800E0C075 /* KVGElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AD1960B4D800E0C075 /* KVGElement.swift */; };
+		964CB7B21960B4D800E0C075 /* KVGEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AE1960B4D800E0C075 /* KVGEntry.swift */; };
+		964CB7B31960B4D800E0C075 /* KVGEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AE1960B4D800E0C075 /* KVGEntry.swift */; };
+		964CB7B41960B4D800E0C075 /* KVGStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AF1960B4D800E0C075 /* KVGStroke.swift */; };
+		964CB7B51960B4D800E0C075 /* KVGStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7AF1960B4D800E0C075 /* KVGStroke.swift */; };
+		96AF68A419616AD1008D1E43 /* KVGStroke.swift in Headers */ = {isa = PBXBuildFile; fileRef = 964CB7AF1960B4D800E0C075 /* KVGStroke.swift */; };
+		96AF68BA19619309008D1E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AF68B919619309008D1E43 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		963B012319614C6900DC1C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		963B012C19614CC200DC1C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963B012519614CC200DC1C2E /* BezierKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964CB7881960B49200E0C075;
+			remoteInfo = BezierKit;
+		};
+		963B012E19614CC200DC1C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963B012519614CC200DC1C2E /* BezierKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964CB7931960B49200E0C075;
+			remoteInfo = BezierKitTests;
+		};
+		963B013019614CC200DC1C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963B012519614CC200DC1C2E /* BezierKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964CB80B1960BF8C00E0C075;
+			remoteInfo = BezierKitExample;
+		};
 		964CB7651960B2FB00E0C075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 964CB74F1960B2FB00E0C075 /* Project object */;
@@ -20,15 +61,44 @@
 			remoteGlobalIDString = 964CB7571960B2FB00E0C075;
 			remoteInfo = KanjiVGKit;
 		};
+		96AF68B7196192FC008D1E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963B012519614CC200DC1C2E /* BezierKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7871960B49200E0C075;
+			remoteInfo = BezierKit;
+		};
+		96CE99F919614C1200D53DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964CB7CD1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96CE99FB19614C1200D53DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964CB7D81960B8AF00E0C075;
+			remoteInfo = DanielsKitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963B012519614CC200DC1C2E /* BezierKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BezierKit.xcodeproj; path = ../BezierKit/BezierKit.xcodeproj; sourceTree = "<group>"; };
+		963B0144196163EB00DC1C2E /* KVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVGParser.swift; sourceTree = "<group>"; };
+		963B01471961686000DC1C2E /* 09078.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 09078.svg; path = ../KanjiVGKit/09078.svg; sourceTree = "<group>"; };
 		964CB7581960B2FB00E0C075 /* KanjiVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CB75C1960B2FB00E0C075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964CB75D1960B2FB00E0C075 /* KanjiVGKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanjiVGKit.h; sourceTree = "<group>"; };
 		964CB7631960B2FB00E0C075 /* KanjiVGKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiVGKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CB7691960B2FB00E0C075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964CB76A1960B2FB00E0C075 /* KanjiVGKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiVGKitTests.swift; sourceTree = "<group>"; };
+		964CB7AD1960B4D800E0C075 /* KVGElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVGElement.swift; sourceTree = "<group>"; };
+		964CB7AE1960B4D800E0C075 /* KVGEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVGEntry.swift; sourceTree = "<group>"; };
+		964CB7AF1960B4D800E0C075 /* KVGStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVGStroke.swift; sourceTree = "<group>"; };
+		96AF68B919619309008D1E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DanielsKit.xcodeproj; path = ../DanielsKit/DanielsKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AF68BA19619309008D1E43 /* Foundation.framework in Frameworks */,
+				963B012219614C6200DC1C2E /* DanielsKit.framework in Frameworks */,
+				963B013419614CD200DC1C2E /* BezierKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,9 +123,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963B012619614CC200DC1C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963B012D19614CC200DC1C2E /* BezierKit.framework */,
+				963B012F19614CC200DC1C2E /* BezierKitTests.xctest */,
+				963B013119614CC200DC1C2E /* BezierKitExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		964CB74E1960B2FB00E0C075 = {
 			isa = PBXGroup;
 			children = (
+				96AF68B919619309008D1E43 /* Foundation.framework */,
+				963B012519614CC200DC1C2E /* BezierKit.xcodeproj */,
+				96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */,
 				964CB75A1960B2FB00E0C075 /* KanjiVGKit */,
 				964CB7671960B2FB00E0C075 /* KanjiVGKitTests */,
 				964CB7591960B2FB00E0C075 /* Products */,
@@ -72,6 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				964CB75D1960B2FB00E0C075 /* KanjiVGKit.h */,
+				963B0144196163EB00DC1C2E /* KVGParser.swift */,
+				964CB7AD1960B4D800E0C075 /* KVGElement.swift */,
+				964CB7AE1960B4D800E0C075 /* KVGEntry.swift */,
+				964CB7AF1960B4D800E0C075 /* KVGStroke.swift */,
 				964CB75B1960B2FB00E0C075 /* Supporting Files */,
 			);
 			path = KanjiVGKit;
@@ -89,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				964CB76A1960B2FB00E0C075 /* KanjiVGKitTests.swift */,
+				963B01471961686000DC1C2E /* 09078.svg */,
 				964CB7681960B2FB00E0C075 /* Supporting Files */,
 			);
 			path = KanjiVGKitTests;
@@ -102,6 +193,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		96CE99F519614C1200D53DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CE99FA19614C1200D53DDA /* DanielsKit.framework */,
+				96CE99FC19614C1200D53DDA /* DanielsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				964CB75E1960B2FB00E0C075 /* KanjiVGKit.h in Headers */,
+				96AF68A419616AD1008D1E43 /* KVGStroke.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +229,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				96AF68B8196192FC008D1E43 /* PBXTargetDependency */,
+				963B012419614C6900DC1C2E /* PBXTargetDependency */,
 			);
 			name = KanjiVGKit;
 			productName = KanjiVGKit;
@@ -163,6 +266,7 @@
 				TargetAttributes = {
 					964CB7571960B2FB00E0C075 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = M2N24428T4;
 					};
 					964CB7621960B2FB00E0C075 = {
 						CreatedOnToolsVersion = 6.0;
@@ -180,6 +284,16 @@
 			mainGroup = 964CB74E1960B2FB00E0C075;
 			productRefGroup = 964CB7591960B2FB00E0C075 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 963B012619614CC200DC1C2E /* Products */;
+					ProjectRef = 963B012519614CC200DC1C2E /* BezierKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 96CE99F519614C1200D53DDA /* Products */;
+					ProjectRef = 96CE99F419614C1200D53DDA /* DanielsKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				964CB7571960B2FB00E0C075 /* KanjiVGKit */,
@@ -187,6 +301,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		963B012D19614CC200DC1C2E /* BezierKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BezierKit.framework;
+			remoteRef = 963B012C19614CC200DC1C2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		963B012F19614CC200DC1C2E /* BezierKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BezierKitTests.xctest;
+			remoteRef = 963B012E19614CC200DC1C2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		963B013119614CC200DC1C2E /* BezierKitExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BezierKitExample.app;
+			remoteRef = 963B013019614CC200DC1C2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96CE99FA19614C1200D53DDA /* DanielsKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DanielsKit.framework;
+			remoteRef = 96CE99F919614C1200D53DDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96CE99FC19614C1200D53DDA /* DanielsKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DanielsKitTests.xctest;
+			remoteRef = 96CE99FB19614C1200D53DDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		964CB7561960B2FB00E0C075 /* Resources */ = {
@@ -200,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963B01481961686000DC1C2E /* 09078.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +363,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964CB7B01960B4D800E0C075 /* KVGElement.swift in Sources */,
+				964CB7B41960B4D800E0C075 /* KVGStroke.swift in Sources */,
+				964CB7B21960B4D800E0C075 /* KVGEntry.swift in Sources */,
+				963B0145196163EB00DC1C2E /* KVGParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,16 +375,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				964CB76B1960B2FB00E0C075 /* KanjiVGKitTests.swift in Sources */,
+				963B0146196163EB00DC1C2E /* KVGParser.swift in Sources */,
+				964CB7B31960B4D800E0C075 /* KVGEntry.swift in Sources */,
+				964CB7B51960B4D800E0C075 /* KVGStroke.swift in Sources */,
+				964CB7B11960B4D800E0C075 /* KVGElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		963B012419614C6900DC1C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DanielsKit;
+			targetProxy = 963B012319614C6900DC1C2E /* PBXContainerItemProxy */;
+		};
 		964CB7661960B2FB00E0C075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 964CB7571960B2FB00E0C075 /* KanjiVGKit */;
 			targetProxy = 964CB7651960B2FB00E0C075 /* PBXContainerItemProxy */;
+		};
+		96AF68B8196192FC008D1E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BezierKit;
+			targetProxy = 96AF68B7196192FC008D1E43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -271,6 +442,7 @@
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -310,6 +482,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -320,30 +493,40 @@
 		964CB76F1960B2FB00E0C075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KanjiVGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		964CB7701960B2FB00E0C075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KanjiVGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 			};
 			name = Release;
 		};
@@ -362,6 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 			};
 			name = Debug;
 		};
@@ -376,6 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 			};
 			name = Release;
 		};
@@ -398,6 +583,7 @@
 				964CB7701960B2FB00E0C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964CB7711960B2FB00E0C075 /* Build configuration list for PBXNativeTarget "KanjiVGKitTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +592,7 @@
 				964CB7731960B2FB00E0C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

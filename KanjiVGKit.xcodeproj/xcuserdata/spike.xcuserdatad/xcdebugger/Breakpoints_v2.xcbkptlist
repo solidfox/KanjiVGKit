@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKitTests/KanjiVGKitTests.swift"
+            timestampString = "426017604.567254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testParser()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGElement.swift"
+            timestampString = "425843341.603755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "init(attributeDict:rootStrokes:childElements:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGElement.init (KanjiVGKitTests.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKitTests.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKitTests.KVGElement&gt;) -&gt; KanjiVGKitTests.KVGElement"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843349.338746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2650">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGElement.init (KanjiVGKitTests.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKitTests.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKitTests.KVGElement&gt;) -&gt; KanjiVGKitTests.KVGElement"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843349.340187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2810">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGElement.init (KanjiVGKit.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKit.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKit.KVGElement&gt;) -&gt; KanjiVGKit.KVGElement"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843349.342469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2650">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGElement.init (KanjiVGKit.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKit.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKit.KVGElement&gt;) -&gt; KanjiVGKit.KVGElement"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843349.342904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2810">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGElement.swift"
+            timestampString = "425845127.729308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "init(attributeDict:rootStrokes:childElements:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGElement.init (KanjiVGKitTests.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKitTests.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKitTests.KVGElement&gt;) -&gt; KanjiVGKitTests.KVGElement"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843382.130648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "7069">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGElement.init (KanjiVGKitTests.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKitTests.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKitTests.KVGElement&gt;) -&gt; KanjiVGKitTests.KVGElement"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843382.130854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "7096">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGElement.init (KanjiVGKit.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKit.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKit.KVGElement&gt;) -&gt; KanjiVGKit.KVGElement"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843382.131315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "7069">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGElement.init (KanjiVGKit.KVGElement.Type)(attributeDict : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, rootStrokes : Swift.Array&lt;KanjiVGKit.KVGStroke&gt;, childElements : Swift.Array&lt;KanjiVGKit.KVGElement&gt;) -&gt; KanjiVGKit.KVGElement"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGElement.swift"
+                  timestampString = "425843382.131545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "7096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGParser.swift"
+            timestampString = "426015759.844303"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "parser(_:didStartElement:namespaceURI:qualifiedName:attributes:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGParser.parser (KanjiVGKitTests.KVGParser)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSXMLParser&gt;, didStartElement : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, namespaceURI : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, qualifiedName : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, attributes : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSDictionary&gt;) -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425843878.295051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGParser.parser (KanjiVGKit.KVGParser)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSXMLParser&gt;, didStartElement : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, namespaceURI : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, qualifiedName : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, attributes : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSDictionary&gt;) -&gt; ()"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425843878.297441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGParser.swift"
+            timestampString = "426015759.844303"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "parser(_:didStartElement:namespaceURI:qualifiedName:attributes:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGParser.parser (KanjiVGKitTests.KVGParser)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSXMLParser&gt;, didStartElement : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, namespaceURI : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, qualifiedName : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, attributes : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSDictionary&gt;) -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425844559.640245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "3692">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGParser.parser (KanjiVGKit.KVGParser)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSXMLParser&gt;, didStartElement : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, namespaceURI : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, qualifiedName : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, attributes : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSDictionary&gt;) -&gt; ()"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425844559.643547"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "3692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGEntry.swift"
+            timestampString = "425845324.439934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init(rootElement:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGEntry.init (KanjiVGKitTests.KVGEntry.Type)(rootElement : KanjiVGKitTests.KVGElement) -&gt; KanjiVGKitTests.KVGEntry"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGEntry.swift"
+                  timestampString = "425845328.468707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGEntry.init (KanjiVGKit.KVGEntry.Type)(rootElement : KanjiVGKit.KVGElement) -&gt; KanjiVGKit.KVGEntry"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGEntry.swift"
+                  timestampString = "425845328.469508"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKit/KVGParser.swift"
+            timestampString = "425845619.103156"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "_isRootElement(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KVGParser._isRootElement (KanjiVGKitTests.KVGParser)(KanjiVGKitTests.KVGElement) -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425845891.320918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "441">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKit.KVGParser._isRootElement (KanjiVGKit.KVGParser)(KanjiVGKit.KVGElement) -&gt; ()"
+                  moduleName = "KanjiVGKit"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKit/KVGParser.swift"
+                  timestampString = "425845891.32589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "441">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKitTests/KanjiVGKitTests.swift"
+            timestampString = "426264203.491365"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "testParser()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.testParser (KanjiVGKitTests.KanjiVGKitTests)() -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426264210.572999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "2206">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.(testParser (KanjiVGKitTests.KanjiVGKitTests) -&gt; () -&gt; ()).(implicit closure #3)"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426264210.573341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.(testParser (KanjiVGKitTests.KanjiVGKitTests) -&gt; () -&gt; ()).(implicit closure #4)"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426264210.573606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "3">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reabstraction thunk helper from @callee_owned () -&gt; (@owned Swift.Character) to @callee_owned () -&gt; (@out Swift.Character)"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426264210.573847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "13"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKitTests/KanjiVGKitTests.swift"
+            timestampString = "426464468.056731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "testParser()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.testParser (KanjiVGKitTests.KanjiVGKitTests)() -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426464499.106657"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "11019">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.testParser (KanjiVGKitTests.KanjiVGKitTests)() -&gt; ()"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426464499.106974"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "11279">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KanjiVGKitTests.KanjiVGKitTests.(testParser (KanjiVGKitTests.KanjiVGKitTests) -&gt; () -&gt; ()).(implicit closure #15)"
+                  moduleName = "KanjiVGKitTests"
+                  urlString = "file:///Users/spike/Dropbox/Developer/iOS/KanjiVGKit/KanjiVGKitTests/KanjiVGKitTests.swift"
+                  timestampString = "426464499.109061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "13"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKitTests/KanjiVGKitTests.swift"
+            timestampString = "426464534.549868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "testParser()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "13"
+            continueAfterRunningActions = "No"
+            filePath = "KanjiVGKitTests/KanjiVGKitTests.swift"
+            timestampString = "426464918.907479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testParser()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
